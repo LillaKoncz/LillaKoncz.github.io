@@ -1,0 +1,204 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*STYLE FOR CONTACTNAIL.HTML----------------------------------*/
+
+input[type=text], textarea {
+    width:100%;
+    padding: 12px;
+    border: 1px solid #3f3e3e;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Poiret One;
+    font-size: 16px;
+   
+  }
+  
+  input[type=submit] {
+    background-color:#902929;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color:rgb(176, 76, 76);
+  }
+  
+  .contact-us {
+    border-radius: 5px;
+    padding: 20px;
+    width:100%;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    font-family: Poiret One;
+  }
+
+  label{
+    font-style: bold;
+    color:rgb(0, 0, 0)
+  }
+
+  .write-to-us{
+    width:100%;
+    height:10vh;
+    color:#333;
+    font-family: Poiret One;
+    letter-spacing: 5px;
+    display: grid;
+    place-items: center;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    font-size: 2rem;
+
+  }
+
+  .background{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    place-content: center;
+  }
+
+  .form-background{
+    background-color: rgb(255, 255, 255);
+    width:75vw;
+    height:100vh;
+    opacity: 0.9;
+  }
+
+/*GET  IN CONTACT WITH US-----------------------------------------*/
+.get-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #55ACEE;
+}
+
+#find-us,
+#call-us{
+  width:50vw;
+  display: grid;
+ text-align: center;
+ place-content: center;
+  color:white;
+  height:40vh;
+  font-size: 2rem;
+  font-family: Poiret One;
+  letter-spacing: 4px;
+  border:3px solid white;
+ }
+
+
+ #find-us{
+  background-color: rgb(203, 70, 72);
+  
+ }
+
+ #call-us{
+  background-color: rgb(203, 70, 72);;
+ }
+
+ #find-us h3,
+ #call-us h3{
+font-size: 1rem;
+margin-top:0.5rem;
+ }
+
+
+
+/*FOLLOW US----------------------------------------*/
+.social.media,
+.follow{
+  display: grid;
+  place-content: center;
+  place-items: center;
+  width:100vw;
+  height:40vh;
+  font-family: Poiret One;
+  letter-spacing: 4px;
+  font-size: 2rem;
+  background-color: rgb(203, 70, 72);
+  color:white;
+}
+
+
+.fa {
+  padding:20px;
+  font-size: 40px;
+  width: 75px;
+  text-align: center;
+  text-decoration: none;
+  margin:20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook,
+.fa-twitter, 
+.fa-instagram {
+  background: rgb(203, 70, 72);
+  color: white;
+  border: 1px solid white;
+  border-radius: 5%;
+}
+
+
+
+/* MEDIA QUERIES-----------------------*/
+
+@media screen and (max-width:500px){
+  .write-to-us h1{
+    font-size:2rem;
+  }
+
+  #call-us h1,
+  #find-us h1 {
+    font-size:1.5rem;
+  }
+
+  #call-us h3,
+  #find-us h3 {
+    font-size:0.7rem;;
+  }
+
+  .follow h2{
+    font-size: 1.5rem;
+  }
+
+  .fa{
+   border:none;
+   margin:1px;
+  }
+
+
+}
+
+@media screen and (max-height:350px){
+  .background{
+    height:300vh;
+  }
+  .form-background{
+    height:200vh;
+  }
+
+  .get-contact{
+    
+  }
+}
+
