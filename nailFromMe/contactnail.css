@@ -189,7 +189,35 @@ margin-top:0.5rem;
 
 }
 
-@media screen and (max-height:350px){
+@media screen and (max-width:800px){
+    
+  #call-us h1,
+  #find-us h1 {
+    font-size:1.5rem;
+  }
+
+  #call-us h3,
+  #find-us h3 {
+    font-size:0.7rem;;
+  }
+
+  .follow h2{
+    font-size: 1.5rem;
+  }
+
+  .fa{
+   border:none;
+   margin:1px;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-height:380px){
   .background{
     height:300vh;
   }
