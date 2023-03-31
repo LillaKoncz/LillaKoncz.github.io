@@ -210,6 +210,7 @@ text-decoration: none;
     box-shadow: none;
     margin-top:1.5vh;
     height:30px;
+ 
 }
 
 .header1{
@@ -248,7 +249,7 @@ text-decoration: none;
     #book-4 {
         margin-top:0;
         position:absolute;
-        bottom:120px;
+        bottom:110px;
         left:25px;
     }
 
