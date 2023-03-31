@@ -251,6 +251,8 @@ text-decoration: none;
         position:absolute;
         bottom:100px;
         left:25px;
+        width:50vw;
+        height: 1.8rem;
     }
 
 
